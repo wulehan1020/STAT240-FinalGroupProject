@@ -1,0 +1,45 @@
+---
+title: "STAT 240 Project Proposal"
+output: html_document
+---
+
+## 1. Group Members
+
+**Group members** — [FILL IN: full names of all group members]
+
+## 2. Group Communication and Collaboration
+
+- **Weekly meeting time** — [FILL IN: day and time everyone can meet]
+- **Communication platform** — [FILL IN: where the group will communicate]
+- **File-sharing platform** — [FILL IN: where the group will share documents and R files]
+
+## 3. Question of Interest
+
+**Research question** — [FILL IN: the question your group unanimously agrees on. Identify the population, the key variables or groups, and the relationship, mean, or proportion you want to investigate.]
+
+## 4. Dataset Links and RStudio Import
+
+- **Dataset name and download link** — [FILL IN: name and direct download link for each dataset used]
+- **RStudio import confirmation** — [FILL IN after a successful import: which file you read into RStudio and which function you used]
+
+## 5. Data Description
+
+- **Original data collector and collection method** — [FILL IN: who originally recorded the data, how they collected it, and where that process is documented]
+- **Unit of observation** — [FILL IN: what one row represents]
+- **Population** — [FILL IN: if the data are a sample, define the larger population they were drawn from and any relevant time or geographic boundaries]
+
+| Dataset column name | Definition, units or categories | Role in answering the research question |
+| --- | --- | --- |
+| [FILL IN] | [FILL IN] | [FILL IN] |
+| [FILL IN] | [FILL IN] | [FILL IN] |
+
+## 6. Proposed Visualization
+
+- **Graph type** — [FILL IN: the type of graph you plan to make]
+- **Variables and mapping** — [FILL IN: what goes on each axis or how groups will be displayed, as applicable]
+- **Purpose** — [FILL IN: what pattern or comparison the graph will help you examine]
+
+## 7. Proposed Inference Method
+
+- **Method** — [FILL IN: one course method that matches your question, such as inference for a population mean or proportion, inference for a difference in means or proportions, or simple linear regression]
+- **Population parameter and connection to the question** — [FILL IN: the specific mean, proportion, difference, or slope you will estimate or test and how it addresses your research question]
