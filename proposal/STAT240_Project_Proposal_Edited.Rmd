@@ -1,0 +1,41 @@
+---
+title: "STAT 240 Project Proposal"
+output: html_document
+---
+
+## 1. Group Members
+
+**Group members** — Lehan Wu, Yicheng Zhao, Yicheng Ding, Yotl Ramirez
+
+## 2. Group Communication and Collaboration
+
+- **Weekly meeting time** — Friday:2PM-3PM
+- **Communication platform** — IMessage
+- **File-sharing platform** — Github
+
+## 3. Question of Interest
+
+**Research question** — Among loans issued through LendingClub during the period covered by the dataset, how did the mean interest rate differ between 60-month and 36-month loans? Use term and interest_rate.
+
+## 4. Dataset Links and RStudio Import
+
+- **Dataset name and download link** — Name: loans_full_schema.csv; Link: https://www.openintro.org/data/index.php?data=loans_full_schema
+- **RStudio import confirmation** — Difference in two population means. Use side-by-side boxplots to show the two distributions and report the mean difference in percentage points.
+
+## 5. Data Description
+
+- **Original data collector and collection method** — This data comes from Lending Club (https://www.lendingclub.com/info/statistics.action), which provides a very large, open set of data on the people who received loans through their platform. The data set is automatically collected by the system of the platform when a customer applying a personal loan.
+- **Unit of observation** — Each row represents a loan customer.
+- **Population** — This database only includes the information of LendingClub's loan costumers from Jan - June in 2018. The population should be all the borrowers around the world.
+
+| Dataset column name | Definition, units or categories | Role in answering the research question |
+| interest_rate | The interest rates applied to each loan | We will use it to calculate the mean interest rate for each population|
+| term | The term of loans, which is either 36 month or 60 month.  | This column identif the category of data |
+
+## 6. Proposed Visualization
+
+We plan to create side by side boxplots to compare the interest rates of loans with 36-month terms and loans with 60-month terms. The explanatory variable will be the loan term (36 or 60 months), which is categorical, and the response variable will be the interest rate, which is quantitative. The boxplots will allow us to compare the distributions, centers, and spreads of interest rates between the two loan terms and identify any potential outliers.
+
+## 7. Proposed Inference Method
+
+We will use inference on the difference of two population means to determine whether there is a statistically significant difference in the average interest rates between loans with 36-month terms and loans with 60-month terms. We plan to use a two-sample t-test to determine whether the difference in mean interest rates is statistically significant.
